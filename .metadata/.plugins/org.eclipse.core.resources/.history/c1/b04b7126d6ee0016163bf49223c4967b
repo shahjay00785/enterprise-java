@@ -1,0 +1,9 @@
+package InventoryMangment;
+
+public class Invoice {
+
+	
+	public void addItem(Item item,int qty){
+		
+	}
+}

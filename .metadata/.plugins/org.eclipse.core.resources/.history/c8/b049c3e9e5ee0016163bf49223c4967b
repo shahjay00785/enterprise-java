@@ -1,0 +1,50 @@
+package InventoryMangment;
+
+import java.util.HashMap;
+import java.util.Set;
+
+import javax.swing.text.html.HTMLDocument.Iterator;
+
+public class Invoice {
+
+    HashMap<Item,Integer> items;
+	
+	Invoice(){
+		this.items=new HashMap<Item,Integer>();
+	}
+	
+	public void addItem(Item item,int qty){
+		if ( this.items.containsKey(item) ) {
+			int q = this.items.get(item);
+			q += qty;
+			this.items.put(item,q);
+		}
+		else {
+			this.items.put(item,qty);
+		}
+		
+	}
+	
+	public int[] getQtys(){ 
+		Set <Entry.Map<Item,Integer>> s = this.items.entrySet();
+		Iterator<Entry.Map<Item,Integer>> i
+	}
+	
+	public void setTaxRate(double tax_rate){
+		
+	}
+	
+	public double getInvoiceAmount(){
+		return 0;
+	}
+	
+	public double getTaxAmount(){
+		return 0;
+	}
+	
+	public void print(){
+		
+	}
+	
+	
+}

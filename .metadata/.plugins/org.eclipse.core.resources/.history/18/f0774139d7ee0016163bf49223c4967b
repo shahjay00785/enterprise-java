@@ -1,0 +1,16 @@
+package InventoryMangment;
+
+import java.util.HashMap;
+
+public class Invoice {
+
+    private HashMap<Item,Integer> item;
+	
+	Invoice(){
+		item=new HashMap<Item,Integer>();
+	}
+	
+	public void addItem(Item item,int qty){
+		
+	}
+}

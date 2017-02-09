@@ -1,0 +1,11 @@
+package InventoryMangment;
+
+public class TestInventry {
+	public static void main(String args[]){
+		Invoice In=new Invoice();
+		Item it=new Item(1,"abc",5,50,50);
+		
+		System.out.println(it.toString());
+	}
+
+}

@@ -1,0 +1,7 @@
+package q1;
+
+public class passArray {
+	
+	int a[]={1,3,4,5,6};
+
+}

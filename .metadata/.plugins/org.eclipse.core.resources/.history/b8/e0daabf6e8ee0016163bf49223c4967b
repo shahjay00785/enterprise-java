@@ -1,0 +1,46 @@
+package InventoryMangment;
+
+public class Item {
+	
+	private int itm_code;
+	private String itm_description;
+	private int qty;
+	private int min_qty;
+	private double cost; 
+	
+	Item(int itm_code,String itm_description,int qty,int min_qty,int cost)
+	{
+		this.itm_code=itm_code;
+		this.itm_description=itm_description;
+		this.qty=qty;
+		this.min_qty=min_qty;
+		this.cost=cost;
+	}
+	
+	Item(int itm_code,String itm_description,double cost){
+		this.itm_code=itm_code;
+		this.itm_description=itm_description;
+		this.cost=cost;
+	}
+	
+	private void addStock(int qty){
+		this.qty+=this.qty;
+	}
+	
+	private int getStock(){
+		return min_qty;
+	}
+	
+	private double getCost(){
+		return cost;
+	}
+	
+	private int getQty(){
+		return qty;
+	}
+	
+	private String getDescription(){
+		return itm_description;
+	}
+
+}
